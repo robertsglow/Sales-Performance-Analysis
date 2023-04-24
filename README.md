@@ -1,6 +1,7 @@
 # Sales-Performance-Analysis
 
 This is a Power BI project that is focused on how the sales of different items affects Revenue, Profits across different countries. 
+We had the Product Category, Sub-category e.t.c
 
 _Disclaimer_ This project is not a real life project. It was done to show the capabilities of Power BI and DAX. This is a dummy Dataset that was downloaded from kaggle Datasets.Therefore, all informations therein are imaginary.
 
