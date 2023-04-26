@@ -21,6 +21,6 @@ The Dataset consists of 1470 rows and 15 Columns respectively.
 
 **Modelling**: The Dataset consists of  only a table. The Modeling that was done here was to create a Date table. I wanted my date column to be on a table so i could create several measuures using the Date table. After creating the Date table, i modelled it together with the existing Sales table. Below is an image of what it looks like.
 
-![]()
+![](1_.png)
 
 Problems Statement
