@@ -27,3 +27,9 @@ The Dataset consists of 1470 rows and 15 Columns respectively.
 
 1. This Analysis was carried out in order to know the country which recorded the highest Revenue, and to know the days when sales are high
 2. To know  
+
+
+**Visualization** The visualization consists of 3 Pages
+- Overview Page
+- Revenue by Category,Product
+- Profit, Age range, Sub-category
