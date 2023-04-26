@@ -25,7 +25,7 @@ The Dataset consists of 1470 rows and 15 Columns respectively.
 
 **Problems Statement**
 
-1. This Analysis was carried out in order to know the country which recorded the highest Revenue, and to know the days when sales are high
+1. This Analysis was carried out in order to know the country which recorded the highest Revenue, and to know the days when sales are at their peak.
 2. To know  
 
 
