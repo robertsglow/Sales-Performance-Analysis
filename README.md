@@ -8,9 +8,10 @@ _Disclaimer_ This project is not a real life project. It was done to show the ca
 
 **Data Description**
 
-The Dataset consists of 1470 rows and 35 Columns respectively.
+The Dataset consists of 1470 rows and 15 Columns respectively.
 
 **Skills Demostrated**
+
 1. Data Cleaning
 2. DAX
 3. Page Navigation
@@ -18,6 +19,8 @@ The Dataset consists of 1470 rows and 35 Columns respectively.
 5. New Measures
 
 
-**Modelling**: The Dataset consists of  only a table, so Data Modelling was not done.
+**Modelling**: The Dataset consists of  only a table. The Modeling that was done here was to create a Date table. I wanted my date column to be on a table so i could create several measuures using the Date table. After creating the Date table, i modelled it together with the existing Sales table. Below is an image of what it looks like.
+
+![]()
 
 Problems Statement
