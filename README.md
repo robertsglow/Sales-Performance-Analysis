@@ -29,7 +29,7 @@ The Dataset consists of 1470 rows and 15 Columns respectively.
 2. To know  
 
 
-**Visualization** The visualization consists of 3 Pages
+**Visualization** : The visualization consists of 3 Pages
 - Overview Page
 - Revenue by Category,Product
 - Profit, Age range, Sub-category
