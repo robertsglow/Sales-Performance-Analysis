@@ -8,7 +8,7 @@ _Disclaimer_ This project is not a real life project. It was done to show the ca
 
 **Data Description**
 
-The Dataset consists of 1470 rows and 15 Columns respectively.
+The Dataset consists of 113036 rows and 15 Columns respectively.
 
 **Skills Demostrated**
 
@@ -19,17 +19,34 @@ The Dataset consists of 1470 rows and 15 Columns respectively.
 5. New Measures
 
 
-**Modelling**: The Dataset consists of  only a table. The Modeling that was done here was to create a Date table. I wanted my date column to be on a table so i could create several measuures using the Date table. After creating the Date table, i modelled it together with the existing Sales table. Below is an image of what it looks like.
+**Modelling**: The Dataset consists of  only a table. The Modeling that was done here was to create a Date table. I wanted my date column to be on a table so i could create several measures using the Date table. After creating the Date table, i modelled it together with the existing Sales table. Below is an image of what it looks like.
 
 ![](1_.png)
 
 **Problems Statement**
 
 1. This Analysis was carried out in order to know the country which recorded the highest Revenue, and to know the days when sales are at their peak.
-2. To know  
+2. The Analysis was carried out to also confirm the products that has more sales in each of its category.
+
 
 
 **Visualization** : The visualization consists of 3 Pages
 - Overview Page
 - Revenue by Category,Product
 - Profit, Age range, Sub-category
+
+**Data Transformation Process**
+
+1. The first manipulation that was done here, was to group my Customers Ages into different Age brackets. A DAX measure was written for this.
+
+Age range = IF(sales[Customer Age]>=17&&sales[Customer Age]<=25,"under age",IF(sales[Customer Age]>=26&&sales[Customer Age]<=35,"middle age",IF(sales[Customer Age]>=36&&sales[Customer Age]<=45,"young adult",IF(sales[Customer Age]>=46&&sales[Customer Age]<=55,"senior age",IF(sales[Customer Age]>=56&&sales[Customer Age]<=69,"mature age","old age")))))
+
+2.The next transformation that was done was to immediately calculate the total Revenue made. A DAX meaure was written for this to be done.
+
+Total Revenue = sum(sales[Revenue])
+
+3. Weekend/Weekday Sales was analyzed to check the peiods that high sales were recorded.
+
+WEEKDAY/WEEKEND = IF('Date Table'[WEEK number] =6 || 'Date Table'[WEEK number] = 7, "weekend","weekday")
+
+##Ware house Analysis##
