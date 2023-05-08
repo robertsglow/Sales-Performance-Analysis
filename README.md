@@ -57,6 +57,10 @@ The Sales cut accross 53 States in total, and recorded about **95M** Total Reven
 
 In Dec 2015 the highest sales was generated.
 
-Below is an image showing the Overview page of the Transactions that was carried out in the Sales Analysis
+Below is an image showing the Overview page of the Transactions that was carried out in the Sales Analysis.
 
 ![](overview_.png)
+
+Another image below shows how Revenue affects all other metrics.We can see in the map visual that there is high concentration of the bubbles in the North America region.
+
+![]()
