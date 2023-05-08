@@ -64,3 +64,7 @@ Below is an image showing the Overview page of the Transactions that was carried
 Another image below shows how Revenue affects all other metrics.We can see in the map visual that there is high concentration of the bubbles in the North America region.
 
 ![](Revenue_.png)
+
+The final visualization is the Profit Category against all other metrics.The image is below:points down:
+
+![]()
