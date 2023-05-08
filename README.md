@@ -59,4 +59,4 @@ In Dec 2015 the highest sales was generated.
 
 Below is an image showing the Overview page of the Transactions that was carried out in the Sales Analysis
 
-![]()
+![](overview_.png)
