@@ -65,6 +65,6 @@ Another image below shows how Revenue affects all other metrics.We can see in th
 
 ![](Revenue_.png)
 
-The final visualization is the Profit Category against all other metrics.The image is below:points down:
+The final visualization is the Profit Category against all other metrics.The image is below	👇
 
-![](profit_3.png)
+![](profit_(3).png)
