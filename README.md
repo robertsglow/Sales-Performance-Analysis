@@ -39,14 +39,24 @@ The Dataset consists of 113036 rows and 15 Columns respectively.
 
 1. The first manipulation that was done here, was to group my Customers Ages into different Age brackets. A DAX measure was written for this.
 
-Age range = IF(sales[Customer Age]>=17&&sales[Customer Age]<=25,"under age",IF(sales[Customer Age]>=26&&sales[Customer Age]<=35,"middle age",IF(sales[Customer Age]>=36&&sales[Customer Age]<=45,"young adult",IF(sales[Customer Age]>=46&&sales[Customer Age]<=55,"senior age",IF(sales[Customer Age]>=56&&sales[Customer Age]<=69,"mature age","old age")))))
+    Age range = IF(sales[Customer Age]>=17&&sales[Customer Age]<=25,"under age",IF(sales[Customer Age]>=26&&sales[Customer Age]<=35,"middle age",IF(sales[Customer       Age]>=36&&sales[Customer Age]<=45,"young adult",IF(sales[Customer Age]>=46&&sales[Customer Age]<=55,"senior age",IF(sales[Customer Age]>=56&&sales[Customer Age]     <=69,"mature age","old age")))))
 
-2.The next transformation that was done was to immediately calculate the total Revenue made. A DAX meaure was written for this to be done.
+2. The next transformation that was done was to immediately calculate the total Revenue made. A DAX meaure was written for this to be done.
 
-Total Revenue = sum(sales[Revenue])
+    Total Revenue = sum(sales[Revenue])
 
 3. Weekend/Weekday Sales was analyzed to check the peiods that high sales were recorded.
 
-WEEKDAY/WEEKEND = IF('Date Table'[WEEK number] =6 || 'Date Table'[WEEK number] = 7, "weekend","weekday")
+    WEEKDAY/WEEKEND = IF('Date Table'[WEEK number] =6 || 'Date Table'[WEEK number] = 7, "weekend","weekday")
 
-##Ware house Analysis##
+**Sales Analysis**
+
+The store has a total of 130 Products, 17 Sub-category and 3 Products category. 
+
+The Sales cut accross 53 States in total, and recorded about **95M** Total Revenue with United States which has the highest sales and highest Revenue
+
+In Dec 2015 the highest sales was generated.
+
+Below is an image showing the Overview page of the Transactions that was carried out in the Sales Analysis
+
+![]()
